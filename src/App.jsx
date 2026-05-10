@@ -329,7 +329,7 @@ export default function BtechGuide() {
 
       {/* HEADER */}
       <div style={{background:"linear-gradient(135deg,#0c0c1a 0%,#150a05 100%)",borderBottom:"1px solid #1a1a2e",padding:"20px 18px 0"}}>
-        <div style={{maxWidth:1120,margin:"0 auto"}}>
+        <div style={{width:"100%"}}>
           <div style={{display:"flex",alignItems:"baseline",gap:10,marginBottom:4}}>
             <span style={{fontSize:20,fontWeight:800,color:"#f59e0b",fontFamily:"'Space Grotesk',sans-serif",letterSpacing:"-.02em"}}>BTech India 200</span>
             <span style={{fontSize:10,color:"#475569",letterSpacing:".15em",textTransform:"uppercase"}}>Placement Intelligence · 2022–2024</span>
@@ -346,7 +346,7 @@ export default function BtechGuide() {
         </div>
       </div>
 
-      <div style={{maxWidth:1120,margin:"0 auto",padding:"18px 14px"}}>
+      <div style={{width:"100%",padding:"18px 14px"}}>
 
         {/* ========== TAB: COLLEGES ========== */}
         {tab==="colleges" && (
